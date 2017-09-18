@@ -2,7 +2,7 @@
   function database () {
       
       // connect to the database called PageVisits
-    $connect = mysqli_connect('localhost','swaray','abraham5015','pageVisits');
+    $connect = mysqli_connect('localhost');
 
       // if connection failed, end it with the die() function
      if(!$connect) {
