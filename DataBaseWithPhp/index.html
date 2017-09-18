@@ -1,0 +1,26 @@
+
+<html>
+<head>
+    <title>Databases with PHP</title>
+</head>
+
+<body>
+<h1>Search Database for Page Name and Remote Host</h1>
+
+<form action="process.php" method="post">
+    Choose Search Type:<br />
+    <select name="searchtype">
+        <option value="page_name">Page Name</option>
+        <option value="remote_host">Remote Host</option>
+    </select>
+    <br />
+     <br/>
+    <input name="searchterm" type="text" size="40" placeholder="search the database">
+    <br />
+    <br>
+    <input type="submit" name="submit" value="Search">
+</form>
+
+</body>
+</html>
+

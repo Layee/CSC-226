@@ -1,0 +1,23 @@
+label {
+    padding:10px;
+    margin:2px;
+}
+
+#userName {
+    margin-bottom:20px;
+}
+
+
+#submit {
+    padding-left:20px;
+    background:crimson;
+    color:#fff;
+    position: relative;
+    right:-130px;
+    bottom:-15px;
+}
+
+#mainForm {
+    margin:15% auto;
+    width:50%;
+}
